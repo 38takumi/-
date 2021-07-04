@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  width: 960px;
+  margin: 50 auto;
+}
+
+
+
+
+/* h1{
+  padding:20px 0 0 20px ;
+  color:gray
+} */
+
+
+
+
+
+
+.list {
+  list-style: none;
+  /* text-align: center; */
+  padding: 50px 0 50px 0;
+  /* display: flex; */
+  /* border-bottom: solid #848282;
+  border-top: solid #848282; */
+}
+
+.list-item {
+  /* display: inline-block;
+  margin: 0 20px; */
+  /* background-color: #848282; */
+  padding: 20px 0 20px 20px;
+  /* 奇数番だけグレーにする */
+}
+
+.list-item:nth-child(odd){
+background-color: #eee;
+}
+
+/* .main {
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.box-list{
+  /* background-color: orange; */
+  /* width:30％;
+  height: 200px; */
+  display: flex;
+  flex-wrap: wrap ;
+  padding-bottom: 50px;
+}
+
+.box1 {
+  width: 30%;
+  height: 200px;
+  background-color: orange;
+  margin-right: 5%;
+}
+
+.box2 {
+  width: 30%;
+  height: 200px;
+  background-color: #ffd700;
+  margin-right: 5%;
+}
+
+.box3 {
+  width: 30%;
+  height: 200px;
+  background-color: #ffd700;
+}
+
+/* ここからtopを40px */
+
+.boxes{
+  width: 30%;
+  height: 200px;
+  margin-top: 40px;
+  margin-right: 5%;
+  background-color:#ffd700;
+}
+
+.boxes:nth-child(5),
+.boxes:last-child{
+  background-color: orange;
+}
+
+.boxes:nth-child(3n){
+margin-right: 0;
+}
