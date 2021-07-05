@@ -9,11 +9,9 @@ header{
   background-color: #FF9A4B;
 }
 
-/* .main{
-  width: 960px;
-  margin: 50 auto;
-} */
-
+body{
+  margin: auto;
+}
 
 
 
@@ -29,8 +27,8 @@ header{
 
 .list {
   list-style: none;
-  text-align: center;
   width: 960px;
+  margin: auto;
   padding: 50px 0 50px 0;
   display: flex;
   /* border-bottom: solid #848282;
@@ -39,7 +37,7 @@ header{
 
 .text{
   width: 300px;
-  margin:50px 30px 50px;
+  margin-right:30px;
   background-color:#EEEEEE ;
 }
 
