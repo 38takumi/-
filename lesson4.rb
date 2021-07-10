@@ -1,0 +1,3 @@
+name="takumi"
+
+puts name

@@ -1,0 +1,1 @@
+puts"私の名前はsaitou takumiです。年齢は+"31.to_i+"歳です。"
